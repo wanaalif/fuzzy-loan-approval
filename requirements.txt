@@ -1,0 +1,10 @@
+# Fuzzy Logic Loan Approval System - Dependencies
+
+# Core numerical computing
+numpy>=1.21.0
+
+# Visualization
+matplotlib>=3.4.0
+
+# Type hints support (for Python < 3.9)
+typing-extensions>=4.0.0
