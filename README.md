@@ -203,10 +203,14 @@ inputs = {
 ```
 fuzzy-loan-approval/
 │
-├── fuzzy_loan_controller.py    # Main fuzzy logic implementation
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file
+├── CONTRIBUTING.md              # Contribution guide
+├── fuzzy_loan_controller.py     # Main fuzzy logic implementation
 ├── LICENSE                      # MIT License
+├── PROJECT_OVERVIEW.md          # Project details
+├── README.md                    # This file
+├── requirements.txt             # Python dependencies
+├── setup.py                     # Installation
+|── QUICKSTART.md                # Quick guide
 ├── .gitignore                   # Git ignore rules
 │
 ├── docs/                        # Documentation
@@ -214,6 +218,7 @@ fuzzy-loan-approval/
 │
 └── examples/                    # Example scripts
     └── demo.py                  # Demonstration script
+    └── test_basic.py            # Tests
 ```
 
 ## 🔧 Technical Details
