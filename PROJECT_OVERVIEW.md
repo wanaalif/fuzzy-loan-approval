@@ -26,26 +26,26 @@ This project was completed as part of the Computational Intelligence course, dem
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     FUZZY LOGIC SYSTEM                       │
+│                     FUZZY LOGIC SYSTEM                      │
 ├─────────────────────────────────────────────────────────────┤
-│                                                              │
+│                                                             │
 │  INPUT LAYER          PROCESSING           OUTPUT LAYER     │
-│  ┌──────────┐         ┌─────────┐         ┌──────────┐     │
-│  │  Credit  │         │  Fuzzy  │         │Approval  │     │
+│  ┌──────────┐         ┌─────────┐          ┌──────────┐     │
+│  │  Credit  │         │  Fuzzy  │          │ Approval │     │
 │  │  Score   │────────▶│  Rules  │────────▶│  Score   │     │
-│  └──────────┘         │   (8)   │         └──────────┘     │
-│  ┌──────────┐         │         │         ┌──────────┐     │
+│  └──────────┘         │   (8)   │          └──────────┘     │
+│  ┌──────────┐         │         │          ┌──────────┐     │
 │  │   Debt   │────────▶│ Mamdani │────────▶│ Interest │     │
-│  │  Ratio   │         │Inference│         │   Rate   │     │
-│  └──────────┘         │         │         └──────────┘     │
-│  ┌──────────┐         │         │                          │
+│  │  Ratio   │         │Inference│          │   Rate   │     │
+│  └──────────┘         │         │          └──────────┘     │
+│  ┌──────────┐         │         │                           │
 │  │  Income  │────────▶│ Centroid│                          │
-│  └──────────┘         │Defuzzif.│                          │
-│  ┌──────────┐         └─────────┘                          │
-│  │Employment│────────▶                                      │
+│  └──────────┘         │Defuzzif.│                           │
+│  ┌──────────┐         └─────────┘                           │
+│  │Employment│────────▶                                     │
 │  │ Duration │                                               │
 │  └──────────┘                                               │
-│                                                              │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -215,8 +215,9 @@ fuzzy-loan-approval/
 ├── QUICKSTART.md          # Quick start guide
 ├── CONTRIBUTING.md        # Contribution guidelines
 ├── LICENSE                # MIT license
+├── PROJECT_OVERVIEW       # This file
 ├── requirements.txt       # Dependencies
-├── setup.py              # Installation script
+├── setup.py               # Installation script
 ├── fuzzy_loan_controller.py  # Main implementation
 ├── docs/
 │   └── LOAN_APPROVAL_SYSTEM_REPORT.pdf  # Technical report
